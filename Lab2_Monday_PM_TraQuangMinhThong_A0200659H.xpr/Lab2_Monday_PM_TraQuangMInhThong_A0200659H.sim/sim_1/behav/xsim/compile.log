@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.srcs/sources_1/new/my_1_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_1_bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.srcs/sources_1/new/my_3_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_3_bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.srcs/sources_1/new/my_4_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_4_bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.srcs/sources_1/new/my_7_bitsubtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_7_bitsubtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.srcs/sim_1/new/All_Simulations.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module All_Simulations
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
