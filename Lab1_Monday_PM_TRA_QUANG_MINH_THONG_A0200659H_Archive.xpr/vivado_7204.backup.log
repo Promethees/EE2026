@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 24 12:00:07 2020
+# Process ID: 7204
+# Current directory: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9716 D:\EE2026labs\Lab1\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+# Log file: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+# Journal file: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/e0407640/Desktop/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jan 24 12:05:24 2020] Launched synth_1...
+Run output will be captured here: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/constrs_1/new/Hardware_Allocation.xdc]
+Finished Parsing XDC File [D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/constrs_1/new/Hardware_Allocation.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1291.262 ; gain = 374.027
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 24 12:21:40 2020...

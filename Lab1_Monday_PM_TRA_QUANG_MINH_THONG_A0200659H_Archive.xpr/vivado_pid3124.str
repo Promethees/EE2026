@@ -1,0 +1,99 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 3124
+License: Customer
+
+Current time: 	Fri Jan 24 11:34:28 SGT 2020
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x800
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	e0407640
+User home directory: C:/Users/e0407640
+User working directory: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: C:/Users/e0407640/Desktop/Vivado
+HDI_APPROOT: C:/Users/e0407640/Desktop/Vivado/2018.2
+RDI_DATADIR: C:/Users/e0407640/Desktop/Vivado/2018.2/data
+RDI_BINDIR: C:/Users/e0407640/Desktop/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+Vivado journal file location: 	D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.jou
+Engine tmp dir: 	D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/.Xil/Vivado-3124-DESKTOP-SJO1R2H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_SDK: C:/Users/e0407640/Desktop/SDK/2018.2
+XILINX_VIVADO: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Users/e0407640/Desktop/Vivado/2018.2
+
+
+GUI allocated memory:	257 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 605 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\EE2026labs\Lab1\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 67 MB (+68269kb) [00:00:05]
+// [Engine Memory]: 485 MB (+356911kb) [00:00:05]
+// Tcl Message: open_project D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/e0407640/Desktop/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 567 MB (+60259kb) [00:00:07]
+// [GUI Memory]: 74 MB (+3517kb) [00:00:08]
+// [Engine Memory]: 605 MB (+10459kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 37 MB. Current time: 1/24/20 11:34:28 AM SGT
+// Project name: Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; location: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Password_Control (Password_Control.v)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Password_Control (Password_Control.v)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Password_Control.v", 32, 128); // ce (w, ck)

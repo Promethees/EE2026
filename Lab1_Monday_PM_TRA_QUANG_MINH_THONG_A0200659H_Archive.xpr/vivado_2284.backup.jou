@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 24 23:06:16 2020
+# Process ID: 2284
+# Current directory: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1228 D:\EE2026labs\Lab1\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+# Log file: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+# Journal file: D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+update_compile_order -fileset sources_1
+archive_project C:/Users/e0407640/Desktop/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr.zip -force -include_local_ip_cache -include_config_settings
