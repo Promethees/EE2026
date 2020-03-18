@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Mar 16 15:21:38 2020
+# Process ID: 8052
+# Current directory: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4652 D:\EE2026labs\Lab4\Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+# Log file: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+# Journal file: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/e0407640/Desktop/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 882.680 ; gain = 161.441
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 16 17:25:48 2020...

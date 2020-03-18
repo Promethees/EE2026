@@ -1,0 +1,446 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 10064
+License: Customer
+
+Current time: 	Thu Mar 05 16:21:10 SGT 2020
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x800
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	e0407640
+User home directory: C:/Users/e0407640
+User working directory: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: C:/Users/e0407640/Desktop/Vivado
+HDI_APPROOT: C:/Users/e0407640/Desktop/Vivado/2018.2
+RDI_DATADIR: C:/Users/e0407640/Desktop/Vivado/2018.2/data
+RDI_BINDIR: C:/Users/e0407640/Desktop/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+Vivado journal file location: 	D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.jou
+Engine tmp dir: 	D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/.Xil/Vivado-10064-DESKTOP-SJO1R2H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_SDK: C:/Users/e0407640/Desktop/SDK/2018.2
+XILINX_VIVADO: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Users/e0407640/Desktop/Vivado/2018.2
+
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 512 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\EE2026labs\Lab4\Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 45 MB (+44534kb) [00:00:06]
+// [Engine Memory]: 478 MB (+349985kb) [00:00:06]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/e0407640/Desktop/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+15552kb) [00:00:10]
+// [Engine Memory]: 536 MB (+35738kb) [00:00:10]
+// [GUI Memory]: 68 MB (+3239kb) [00:00:11]
+// [Engine Memory]: 569 MB (+6322kb) [00:00:11]
+// [GUI Memory]: 77 MB (+5304kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 577 MB. GUI used memory: 36 MB. Current time: 3/5/20 4:21:14 PM SGT
+// Project name: Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; location: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 790.719 ; gain = 61.367 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Assignment (Assignment.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Assignment (Assignment.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [Engine Memory]: 604 MB (+6364kb) [00:00:43]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 604 MB. GUI used memory: 37 MB. Current time: 3/5/20 4:21:47 PM SGT
+// Elapsed time: 56 seconds
+selectCodeEditor("Assignment.v", 198, 292); // ce (w, ck)
+// Elapsed time: 136 seconds
+selectCodeEditor("Assignment.v", 240, 214); // ce (w, ck)
+// Elapsed time: 125 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Assignment (Assignment.v), count_down : Count_down_C (Count_down_C.v)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Assignment (Assignment.v), count_down : Count_down_C (Count_down_C.v)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 23 seconds
+selectCodeEditor("Assignment.v", 126, 213); // ce (w, ck)
+// [GUI Memory]: 81 MB (+977kb) [00:08:42]
+// Elapsed time: 139 seconds
+selectCodeEditor("Assignment.v", 196, 178); // ce (w, ck)
+// Elapsed time: 59 seconds
+selectCodeEditor("Assignment.v", 301, 416); // ce (w, ck)
+// Elapsed time: 133 seconds
+selectCodeEditor("Assignment.v", 390, 411); // ce (w, ck)
+// Elapsed time: 54 seconds
+selectCodeEditor("Assignment.v", 335, 112); // ce (w, ck)
+// [GUI Memory]: 86 MB (+607kb) [00:15:38]
+// Elapsed time: 469 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 21 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "update_fast_LOA"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/update_fast_LOA.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/update_fast_LOA.v 
+// I (ck): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input_an", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input_an ; input ; false ; 0 ; 0", 0, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input_an ; input ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "33", 0, "MSB", 3); // ab (O, I)
+selectTableHeader(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input_an ; input ; true ; 33 ; 0", 0, "33", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output_an", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output_an ; input ; false ; 0 ; 0", 1, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 1, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output_an ; output ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output_an ; output ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 1, "MSB", 3); // ab (O, I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, update_fast_LOA (update_fast_LOA.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, update_fast_LOA (update_fast_LOA.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+selectCodeEditor("Assignment.v", 48, 117); // ce (w, ck)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectCodeEditor("Assignment.v", 178, 339); // ce (w, ck)
+// Elapsed time: 45 seconds
+selectCodeEditor("Assignment.v", 136, 60); // ce (w, ck)
+// [GUI Memory]: 95 MB (+4399kb) [00:23:49]
+selectCodeEditor("Assignment.v", 274, 239, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("Assignment.v", 156, 396); // ce (w, ck)
+selectCodeEditor("Assignment.v", 152, 399, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("Assignment.v", 246, 253); // ce (w, ck)
+// Elapsed time: 123 seconds
+selectCodeEditor("Assignment.v", 280, 110); // ce (w, ck)
+selectCodeEditor("Assignment.v", 290, 113); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Assignment.v", 202, 229); // ce (w, ck)
+selectCodeEditor("Assignment.v", 304, 416); // ce (w, ck)
+selectCodeEditor("Assignment.v", 304, 416, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Assignment.v", 304, 416); // ce (w, ck)
+// [GUI Memory]: 101 MB (+2138kb) [00:26:59]
+// [GUI Memory]: 107 MB (+446kb) [00:27:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 53 MB. Current time: 3/5/20 4:51:48 PM SGT
+// Elapsed time: 782 seconds
+selectCodeEditor("Assignment.v", 309, 428); // ce (w, ck)
+selectCodeEditor("Assignment.v", 309, 420); // ce (w, ck)
+selectCodeEditor("Assignment.v", 309, 420, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "update_fast_LOA.v", 2); // k (j, ck)
+selectCodeEditor("update_fast_LOA.v", 120, 382); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 399 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "update_fast_LOA.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+selectCodeEditor("Assignment.v", 248, 281); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("Assignment.v", 189, 420); // ce (w, ck)
+selectCodeEditor("Assignment.v", 212, 416); // ce (w, ck)
+selectCodeEditor("Assignment.v", 219, 412); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 50 MB. Current time: 3/5/20 5:21:48 PM SGT
+// Elapsed time: 886 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:22:59 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 49 MB. Current time: 3/5/20 5:23:03 PM SGT
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 425ms to process. Increasing delay to 2000 ms.
+// [Engine Memory]: 634 MB (+539kb) [01:02:43]
+// Elapsed time: 191 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:26:12 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:27:22 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// Elapsed time: 42 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 654 MB. GUI used memory: 51 MB. Current time: 3/5/20 5:28:08 PM SGT
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 30 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: CLOCK[0].. ]", 6, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;CLOCK[0];-;;-;10;-;"); // ah (O, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Assignment.v", 287, 87); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Constraints.xdc]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Constraints.xdc]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "update_fast_LOA.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "update_fast_LOA.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Mar  5 17:29:09 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1130 ms. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:30:08 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:31:17 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// Elapsed time: 42 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+// Elapsed time: 26 seconds
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 30 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: CLOCK[0].. ]", 6, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 30 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: CLOCK[0].. ]", 6, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 30 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: CLOCK[0].. ]", 6, false); // ah (O, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "update_fast_LOA.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 3); // k (j, ck)
+// Elapsed time: 48 seconds
+selectCodeEditor("Constraints.xdc", 623, 148); // ce (w, ck)
+typeControlKey((HResource) null, "Constraints.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Assignment.v", 1); // k (j, ck)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Mar  5 17:34:29 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 40 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:35:16 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 54 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization]", 1); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization]", 1); // ah (O, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar  5 17:36:24 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab4/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab4_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 3); // k (j, ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// Elapsed time: 42 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+// Elapsed time: 32 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 30 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: CLOCK[0].. ]", 6, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;CLOCK[0];-;;-;10;-;"); // ah (O, ck)
+selectButton("PAResourceItoN.MsgUtils_TO_SELECT_THIS_OBJECT_YOU_MUST_OPEN_Yes", "Yes"); // JButton (A, G)
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 702 MB. GUI used memory: 43 MB. Current time: 3/5/20 5:37:48 PM SGT
+// [Engine Memory]: 782 MB (+121620kb) [01:16:48]
+// [Engine Memory]: 965 MB (+150562kb) [01:16:53]
+// [Engine Memory]: 1,024 MB (+11094kb) [01:16:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,048 MB. GUI used memory: 43 MB. Current time: 3/5/20 5:38:03 PM SGT
+// [Engine Memory]: 1,122 MB (+49235kb) [01:17:03]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,422 MB. GUI used memory: 42 MB. Current time: 3/5/20 5:38:06 PM SGT
+// [Engine Memory]: 1,426 MB (+259903kb) [01:17:05]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,514 MB (+17489kb) [01:17:05]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1692.734 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1692.734 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1782.809 ; gain = 908.797 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 26 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
