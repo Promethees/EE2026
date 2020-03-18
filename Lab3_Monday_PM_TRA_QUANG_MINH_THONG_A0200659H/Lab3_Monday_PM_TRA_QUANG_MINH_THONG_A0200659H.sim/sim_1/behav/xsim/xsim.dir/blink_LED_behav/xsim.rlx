@@ -1,0 +1,12 @@
+
+{ 
+    crc :  761849454525306145  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 0ae45d4e2cfb4680a94cec284667f7f4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot blink_LED_behav xil_defaultlib.blink_LED xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "C:\\Users\\e0407640\\Desktop\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/blink_LED_behav/xsimk.exe\"   \"xsim.dir/blink_LED_behav/obj/xsim_0.win64.obj\" \"xsim.dir/blink_LED_behav/obj/xsim_1.win64.obj\" \"C:\\Users\\e0407640\\Desktop\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Users\\e0407640\\Desktop\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

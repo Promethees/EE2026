@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1582546793">
+  <File Type="BITSTR-BMM" Name="Switches_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Switches_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Switches_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Switches_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Switches.tcl"/>
+  <File Type="OPT-TIMING" Name="Switches_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Switches_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Switches_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Switches_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Switches_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Switches.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Switches_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Switches_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Switches_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Switches_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Switches_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Switches_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Switches_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Switches_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Switches_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Switches_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Switches_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Switches.bgn"/>
+  <File Type="PLACE-TIMING" Name="Switches_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Switches_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Switches.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Switches_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Switches_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Switches_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Switches.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Switches_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Switches_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Switches_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Switches_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Switches_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Switches_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Switches.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Switches_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Switches.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Switches_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Switches_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Switches.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Switches_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Switches_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Switches_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Switches_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Switches_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Switches_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Switches_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Switches_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Switches_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Switches_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Switches_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Switches_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Switches_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Switches_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Switches_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Switches_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Switches_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Switches_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Switches_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Switches.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Switches_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Switches.rbt"/>
+  <File Type="BITSTR-NKY" Name="Switches.nky"/>
+  <File Type="BG-DRC" Name="Switches.drc"/>
+  <File Type="RDI-RDI" Name="Switches.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/blink_LED.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_1_bit_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_6_bit_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Switches.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_4_bit_adder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LED_trail_M.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LED_trail_L.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LED_trail_H.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Switches"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

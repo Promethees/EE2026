@@ -1,0 +1,1382 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 12264
+License: Customer
+
+Current time: 	Sun Feb 23 15:30:22 SGT 2020
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x800
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	e0407640
+User home directory: C:/Users/e0407640
+User working directory: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: C:/Users/e0407640/Desktop/Vivado
+HDI_APPROOT: C:/Users/e0407640/Desktop/Vivado/2018.2
+RDI_DATADIR: C:/Users/e0407640/Desktop/Vivado/2018.2/data
+RDI_BINDIR: C:/Users/e0407640/Desktop/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/e0407640/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Users/e0407640/Desktop/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.log
+Vivado journal file location: 	D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado.jou
+Engine tmp dir: 	D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/.Xil/Vivado-12264-DESKTOP-SJO1R2H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Users/e0407640/Desktop/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_SDK: C:/Users/e0407640/Desktop/SDK/2018.2
+XILINX_VIVADO: C:/Users/e0407640/Desktop/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Users/e0407640/Desktop/Vivado/2018.2
+
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 522 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\EE2026labs\Lab3\Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H\Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 64 MB (+64157kb) [00:00:05]
+// [Engine Memory]: 476 MB (+347744kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/e0407640/Desktop/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 558 MB (+60819kb) [00:00:08]
+// [GUI Memory]: 74 MB (+7300kb) [00:00:09]
+// [GUI Memory]: 79 MB (+1320kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 582 MB. GUI used memory: 37 MB. Current time: 2/23/20 3:30:25 PM SGT
+// Project name: Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; location: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 594 MB (+8524kb) [00:00:12]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [Engine Memory]: 630 MB (+6294kb) [00:10:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 37 MB. Current time: 2/23/20 3:41:15 PM SGT
+// Elapsed time: 897 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blink_LED (blink_LED.v)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blink_LED (blink_LED.v)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+// [GUI Memory]: 83 MB (+54kb) [00:20:08]
+// [GUI Memory]: 87 MB (+56kb) [00:29:06]
+// Elapsed time: 973 seconds
+selectCodeEditor("LED_trail_H.v", 226, 144); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v)]", 2, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top LED_trail_H [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 91 MB (+179kb) [00:32:13]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'blink_LED' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj blink_LED_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/blink_LED.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module blink_LED INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.2 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: C:/Users/e0407640/Desktop/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0ae45d4e2cfb4680a94cec284667f7f4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot blink_LED_behav xil_defaultlib.blink_LED xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.blink_LED Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot blink_LED_behav  ****** Webtalk v2018.2 (64-bit)   **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018   **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim/xsim.dir/blink_LED_behav/webtalk/xsim_webtalk.tcl -notrace 
+// Elapsed time: 11 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 842.516 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-5357] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 842.516 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:02:53 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 347ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:03:38 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 64 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:04:44 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1308 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2775 ms. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 62 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// Elapsed time: 29 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18); // u (O, ck)
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 43 MB. Current time: 2/23/20 4:06:35 PM SGT
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 852.059 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// [Engine Memory]: 1,312 MB (+682690kb) [00:36:25]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 59 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+// Elapsed time: 106 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 22 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "my_1_bit_adder"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 28 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/my_1_bit_adder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/my_1_bit_adder.v 
+// I (ck): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,345 MB. GUI used memory: 47 MB. Current time: 2/23/20 4:10:15 PM SGT
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, (String) null, -1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 2, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 2, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 3, (String) null, 0); // ab (O, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cin", 3, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 4, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout", 4, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; input ; false ; 0 ; 0", 2, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 2, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 4, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout ; input ; false ; 0 ; 0", 4, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 4, "Direction", 1); // ab (O, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "my_6_bit_adder"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/my_6_bit_adder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/my_6_bit_adder.v 
+// I (ck): Define Module: addNotify
+// Elapsed time: 15 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B", 1, "Port Name", 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 2, "Port Name", 0); // ab (O, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cin", 3, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 4, (String) null, 0); // ab (O, I)
+// [GUI Memory]: 102 MB (+6000kb) [00:41:35]
+// [GUI Memory]: 108 MB (+1120kb) [00:41:40]
+// Elapsed time: 15 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Cout", 4, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; input ; false ; 0 ; 0", 0, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; input ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; input ; false ; 0 ; 0", 2, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; input ; true ; 0 ; 0", 2, "input", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,369 MB. GUI used memory: 90 MB. Current time: 2/23/20 4:12:10 PM SGT
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A ; input ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab (O, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "5", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "B ; input ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 1, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "5", 1, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; output ; true ; 0 ; 0", 2, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "5", 2, "MSB", 3); // ab (O, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 124 MB (+10702kb) [00:42:12]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_1_bit_adder (my_1_bit_adder.v)]", 5, false); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_1_bit_adder (my_1_bit_adder.v)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("my_1_bit_adder.v", 30, 93); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("my_1_bit_adder.v", 38, 96, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ad (aj, Popup.HeavyWeightWindow)
+// [Engine Memory]: 1,381 MB (+3557kb) [00:42:56]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_6_bit_adder (my_6_bit_adder.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_6_bit_adder (my_6_bit_adder.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("my_6_bit_adder.v", 30, 92); // ce (w, ck)
+// Elapsed time: 31 seconds
+selectCodeEditor("my_6_bit_adder.v", 129, 78); // ce (w, ck)
+// [GUI Memory]: 135 MB (+5145kb) [00:43:39]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_1_bit_adder.v", 3); // k (j, ck)
+selectCodeEditor("my_1_bit_adder.v", 246, 78); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 4); // k (j, ck)
+selectCodeEditor("my_6_bit_adder.v", 0, 98); // ce (w, ck)
+// [GUI Memory]: 142 MB (+430kb) [00:44:30]
+// Elapsed time: 76 seconds
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+selectCodeEditor("my_6_bit_adder.v", 166, 133); // ce (w, ck)
+// Elapsed time: 77 seconds
+typeControlKey((HResource) null, "my_6_bit_adder.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_1_bit_adder.v", 3); // k (j, ck)
+selectCodeEditor("my_1_bit_adder.v", 248, 96); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 4); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 153 MB (+4236kb) [00:48:23]
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_1_bit_adder.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+selectCodeEditor("LED_trail_H.v", 181, 113); // ce (w, ck)
+// Elapsed time: 50 seconds
+selectCodeEditor("LED_trail_H.v", 433, 138); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,388 MB. GUI used memory: 78 MB. Current time: 2/23/20 4:21:35 PM SGT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 161 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:22:21 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:23:17 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:24:27 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 64 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 20 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// Elapsed time: 70 seconds
+selectCodeEditor("LED_trail_H.v", 52, 348); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "LED_trail_H.v", 'v'); // ce (w, ck)
+selectCodeEditor("LED_trail_H.v", 350, 365); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aj (ck): Save Project: addNotify
+dismissDialog("Save Project"); // aj (ck)
+selectCodeEditor("LED_trail_H.v", 135, 113); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:28:55 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 57 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:29:54 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 67 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:31:03 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 59 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 22 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw
+unMinimizeFrame(PAResourceOtoP.PAViews_HARDWARE, "Hardware"); // aw
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Constraints.xdc]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Constraints.xdc]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_1_bit_adder.v", 2); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 1); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 0); // k (j, ck)
+selectCodeEditor("LED_trail_H.v", 493, 177); // ce (w, ck)
+selectCodeEditor("LED_trail_H.v", 295, 91); // ce (w, ck)
+// Elapsed time: 89 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "LED_trail_H.v"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "LED_trail_H.v"); // aw (aE, aG)
+// Elapsed time: 38 seconds
+selectCodeEditor("LED_trail_H.v", 50, 487); // ce (w, aG)
+// Elapsed time: 83 seconds
+selectCodeEditor("LED_trail_H.v", 302, 591); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 454, 544); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 496, 585); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 71, 605); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 353, 587); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 501, 587); // ce (w, aG)
+typeControlKey((HResource) null, "LED_trail_H.v", 'c'); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 262, 406); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 217, 416); // ce (w, aG)
+typeControlKey((HResource) null, "LED_trail_H.v", 'v'); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 507, 601); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 503, 605, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("LED_trail_H.v", 503, 605); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 270, 416); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 42, 403); // ce (w, aG)
+// Elapsed time: 21 seconds
+selectCodeEditor("LED_trail_H.v", 595, 568); // ce (w, aG)
+// Elapsed time: 10 seconds
+selectCodeEditor("LED_trail_H.v", 503, 484); // ce (w, aG)
+// [GUI Memory]: 161 MB (+716kb) [01:09:49]
+// Elapsed time: 134 seconds
+selectCodeEditor("LED_trail_H.v", 551, 503); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 444, 508); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 452, 503); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("LED_trail_H.v", 464, 486); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 531, 507); // ce (w, aG)
+selectCodeEditor("LED_trail_H.v", 437, 503); // ce (w, aG)
+// Elapsed time: 14 seconds
+selectCodeEditor("LED_trail_H.v", 335, 486); // ce (w, aG)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 170 MB (+566kb) [01:11:03]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 34 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "LED_trail_H.v"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "LED_trail_H.v"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "LED_trail_H.v"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 179 MB (+832kb) [01:11:30]
+// Tcl Message: [Sun Feb 23 16:41:45 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:42:27 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 100 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:44:10 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 189 MB (+436kb) [01:15:03]
+// Elapsed time: 69 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/LED_trail_H.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 12 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blink_LED (blink_LED.v)]", 5, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top blink_LED [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:45:55 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 64 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:47:00 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v), new_trail : my_6_bit_adder (my_6_bit_adder.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v), new_trail : my_6_bit_adder (my_6_bit_adder.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 53 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 16:48:05 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 2); // k (j, ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// Elapsed time: 41 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 0); // k (j, ck)
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 1 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: blink_LED.. ]", 15, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;blink_LED;-;;-;10;-;"); // ah (O, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 1); // k (j, ck)
+// Elapsed time: 79 seconds
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aQ, ck): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 1 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: blink_LED.. ]", 7, false); // ah (O, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 0); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,395 MB. GUI used memory: 90 MB. Current time: 2/23/20 4:51:36 PM SGT
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 945 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1465 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1066 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1414 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1386 ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1386 ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1392 ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1401 ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 240 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 1); // k (j, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 0); // k (j, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 170 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "blink_LED.v"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeFrame(PAResourceOtoP.PAViews_CODE, "blink_LED.v"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "blink_LED.v"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 0); // k (j, ck)
+// Elapsed time: 31 seconds
+selectCodeEditor("Constraints.xdc", 408, 90); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 2); // k (j, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED_trail_H (LED_trail_H.v), new_trail : my_6_bit_adder (my_6_bit_adder.v)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blink_LED (blink_LED.v)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blink_LED (blink_LED.v)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("blink_LED.v", 347, 148); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 0); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:00:00 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1885 ms. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 60 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:01:01 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 3); // k (j, ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 51 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:02:07 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// Elapsed time: 44 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. ]", 2); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. , [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. , [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. ]", 3, false, false, false, false, false, true); // ah (O, ck) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A. ]", 2, true); // ah (O, ck) - Node
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 0); // k (j, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:04:12 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:04:53 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2014 ms. Increasing delay to 5000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 80 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:06:15 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 3); // k (j, ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Constraints.xdc", 0); // k (j, ck)
+selectCodeEditor("Constraints.xdc", 465, 177); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("Constraints.xdc", 412, 251); // ce (w, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 36 seconds
+typeControlKey((HResource) null, "Constraints.xdc", 'v'); // ce (w, ck)
+selectCodeEditor("Constraints.xdc", 8, 114); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Constraints.xdc", 6, 80); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 144 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:10:54 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1798 ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1798 ms to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 182 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 693ms to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:13:59 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 111 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:15:53 2020] Launched impl_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 96 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183ACA961A" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183ACA961A" may be locked by another hw_server.  
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/blink_LED.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/blink_LED.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 3); // k (j, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/impl_1/blink_LED.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("blink_LED.v", 160, 266); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_6_bit_adder.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED_trail_H.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blink_LED.v", 3); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// CommandFailedException: boost::filesystem::status: Access is denied: "D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/blink_LED_utilization_synth.pb"
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Sun Feb 23 17:19:06 SGT 2020
+# Process ID: 12264
+# OS: Windows 10
+# User: e0407640
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: boost::filesystem::status: Access is denied: "D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/blink_LED_utilization_synth.pb" (See D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/vivado_pid12264.debug)
+*/
+// HOptionPane Error: 'boost::filesystem::status: Access is denied: "D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_ QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_ 1/blink_LED_utilization_synth.pb" (Vivado v2018.2 (64-bit))'
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:19:07 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// 'k' command handler elapsed time: 52 seconds
+// Elapsed time: 49 seconds
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Feb 23 17:20:00 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Feb 23 17:20:13 2020] Launched synth_1... Run output will be captured here: D:/EE2026labs/Lab3/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab3_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectCodeEditor("blink_LED.v", 117, 143); // ce (w, ck)
+closeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA961A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
