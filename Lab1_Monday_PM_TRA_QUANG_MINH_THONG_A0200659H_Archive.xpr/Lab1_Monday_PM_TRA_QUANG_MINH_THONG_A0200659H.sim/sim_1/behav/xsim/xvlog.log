@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sources_1/new/Password_Control.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Password_Control
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Simulation
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EE2026labs/Lab1/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H/Lab1_Monday_PM_TRA_QUANG_MINH_THONG_A0200659H.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,11 @@
+*.cache
+*.runs
+*.srcs
+*.pdf
+*.jou
+*.hw
+*.Xil
+*.ip_user_files
+*.sim
+*.backup
+vivado

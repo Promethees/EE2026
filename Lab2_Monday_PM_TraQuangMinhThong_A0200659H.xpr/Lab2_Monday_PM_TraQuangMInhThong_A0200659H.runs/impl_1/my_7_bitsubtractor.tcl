@@ -66,7 +66,7 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   open_checkpoint my_7_bitsubtractor_routed.dcp
-  set_property webtalk.parent_dir C:/Users/e0407640/Desktop/Lab2_Monday_PM_TraQuangMInhThong_A0200659H/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/EE2026/Lab2_Monday_PM_TraQuangMinhThong_A0200659H.xpr/Lab2_Monday_PM_TraQuangMInhThong_A0200659H.cache/wt [current_project]
   catch { write_mem_info -force my_7_bitsubtractor.mmi }
   write_bitstream -force my_7_bitsubtractor.bit 
   catch {write_debug_probes -quiet -force my_7_bitsubtractor}

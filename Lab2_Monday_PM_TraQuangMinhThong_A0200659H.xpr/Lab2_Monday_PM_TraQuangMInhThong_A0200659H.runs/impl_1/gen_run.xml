@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1581327247">
+  <File Type="BITSTR-BMM" Name="my_7_bitsubtractor_bd.bmm"/>
   <File Type="ROUTE-PWR" Name="my_7_bitsubtractor_power_routed.rpt"/>
   <File Type="PA-TCL" Name="my_7_bitsubtractor.tcl"/>
-  <File Type="BITSTR-BMM" Name="my_7_bitsubtractor_bd.bmm"/>
+  <File Type="OPT-DCP" Name="my_7_bitsubtractor_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="my_7_bitsubtractor_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="my_7_bitsubtractor_reports.tcl"/>
-  <File Type="OPT-DCP" Name="my_7_bitsubtractor_opt.dcp"/>
   <File Type="OPT-DRC" Name="my_7_bitsubtractor_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="my_7_bitsubtractor.hwdef"/>
   <File Type="PWROPT-DCP" Name="my_7_bitsubtractor_pwropt.dcp"/>
@@ -25,19 +25,20 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="my_7_bitsubtractor_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="my_7_bitsubtractor_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="my_7_bitsubtractor_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="my_7_bitsubtractor_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="my_7_bitsubtractor.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="my_7_bitsubtractor_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="my_7_bitsubtractor_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="my_7_bitsubtractor.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="my_7_bitsubtractor_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="my_7_bitsubtractor_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="my_7_bitsubtractor_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="my_7_bitsubtractor.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="my_7_bitsubtractor_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="my_7_bitsubtractor_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="my_7_bitsubtractor_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="my_7_bitsubtractor_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="my_7_bitsubtractor_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="my_7_bitsubtractor_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="my_7_bitsubtractor_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="my_7_bitsubtractor.vdi"/>
   <File Type="ROUTE-CLK" Name="my_7_bitsubtractor_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="my_7_bitsubtractor_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="my_7_bitsubtractor_bus_skew_routed.pb"/>
@@ -48,7 +49,6 @@
   <File Type="BITSTR-RBT" Name="my_7_bitsubtractor.rbt"/>
   <File Type="BITSTR-NKY" Name="my_7_bitsubtractor.nky"/>
   <File Type="BG-DRC" Name="my_7_bitsubtractor.drc"/>
-  <File Type="RDI-RDI" Name="my_7_bitsubtractor.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
